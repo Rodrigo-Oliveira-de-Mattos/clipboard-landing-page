@@ -1,0 +1,67 @@
+img{
+    width: 100%;
+}
+
+main{
+    padding: 15rem 5rem;
+}
+
+.introducao, .informacoes, .informacao-portabilidade, .work-flow, .empresas{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.introducao .logo{
+    width: 17rem;
+    margin-bottom: 9rem;
+}
+
+.introducao .titulo-principal{
+    text-align: center;
+    font-size: 4.1rem;
+    margin-bottom: 2.5rem;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+
+.btns-download{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    margin: 6rem 0 22rem;
+}
+
+.btns-download .download{
+    padding: 2.5rem;
+    border-radius: 999px;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btns-download .download.ios{
+    background-color: var(--primary-strong);
+    box-shadow: var(--shadow-strong) 0px -2px 1px 2px inset;
+
+}
+.btns-download .download.mac{
+    background-color: var(--primary-light);
+    box-shadow: var(--shadow-light) 0px -2px 1px 2px inset;
+
+}
+
+.informacoes .titulo-informacoes{
+    font-size: 3.8rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+.informacoes .bloco-mais-informacoes{
+    margin-top: 8rem;
+}
