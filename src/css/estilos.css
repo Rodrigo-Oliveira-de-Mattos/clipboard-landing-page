@@ -2,29 +2,53 @@ img{
     width: 100%;
 }
 
-main{
-    padding: 15rem 5rem;
+body{
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.introducao, .informacoes, .informacao-portabilidade, .work-flow, .empresas{
+main{
+    padding: 0 5rem;
+}
+
+main > section{
+    margin-top: 19rem;
+}
+
+section, footer{
     flex-direction: column;
     align-items: center;
     display: flex;
 }
 
+h1, h2, h3{
+    color: var(--neutro-strong);
+}
+
 .introducao .logo{
-    width: 17rem;
+    width: 18rem;
     margin-bottom: 9rem;
 }
 
 .introducao .titulo-principal{
     text-align: center;
-    font-size: 4.1rem;
+    font-size: 4.2rem;
     margin-bottom: 2.5rem;
 }
 
+section > h2{
+    font-size: 3.8rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+section > p{
+    margin-bottom: 8rem;
+}
+
 p{
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     line-height: 3.5rem;
 }
@@ -34,7 +58,7 @@ p{
     flex-direction: column;
     gap: 3rem;
     width: 100%;
-    margin: 6rem 0 22rem;
+    margin-bottom: 1rem;
 }
 
 .btns-download .download{
@@ -56,12 +80,100 @@ p{
 
 }
 
-.informacoes .titulo-informacoes{
-    font-size: 3.8rem;
-    text-align: center;
-    margin-bottom: 1.8rem;
+.btns-download .download:hover{
+    opacity: 0.8;
 }
 
 .informacoes .bloco-mais-informacoes{
-    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes .bloco-mais-informacoes .mais-informacoes{
+    text-align: center;
+}
+
+.bloco-mais-informacoes .mais-informacoes .conjunto-informacao{
+    padding-top: 7.5rem;
+}
+
+.bloco-mais-informacoes .mais-informacoes .conjunto-informacao > h3{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.bloco-mais-informacoes .mais-informacoes .conjunto-informacao > p{
+    text-height: 3rem;
+}
+
+.work-flow .servicos{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.work-flow .servicos li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.work-flow .servicos li > img {
+    width: 6.5rem;
+    margin: 4rem 0 3rem;
+}
+
+.work-flow .servicos li > h3{
+    font-size: 3rem;
+}
+
+.empresas .logos{
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+ footer{
+    background-color: #f2f2f2;
+    padding: 6rem;
+    margin-top: 20rem;
+ }
+
+ footer > img{
+    width: 8rem;
+ }
+
+.links .links-empresa{
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    margin: 6rem 0;
+}
+
+.links .links-empresa li a{
+    color: var(--neutro-strong);
+}
+
+.links .links-empresa li a:hover, .links .social-medias li a:hover{
+    color: var(--primary-strong);
+}
+
+.links .social-medias{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.fa-facebook-square, .fa-twitter, .fa-instagram{
+    font-size: 3.5rem;
+    color: var(--neutro-light);
+}
+
+.fa-facebook-square:hover, .fa-twitter:hover, .fa-instagram:hover{
+    color: var(--primary-strong);
 }
