@@ -1,0 +1,122 @@
+@media only screen and (min-width: 1100px){
+    body{
+        background-image: url(../images/bg-header-desktop.png);
+    }
+
+    main{
+        padding: 0 7rem;
+    }
+
+    .grupo-responsivo{
+        width: 55%;
+    }
+
+    .introducao, .encerramento{
+        margin: 19rem auto 0;
+    }
+
+    .introducao .titulo-principal{
+        font-size: 6rem;
+    }
+
+    section > h2{
+        font-size: 4.5rem;
+    }
+
+    p{
+        font-size: 2.6rem;
+    }
+
+    .btns-download{
+        flex-direction: row;
+        width: 70rem;
+    }
+
+    .btns-download .download{
+        flex: 1;
+    }
+
+    .informacoes .bloco-mais-informacoes{
+        flex-direction: row;
+        gap: 6rem;
+    }
+
+    .informacoes .bloco-mais-informacoes > img{
+        flex: 1.2;
+        transform: translateX(-100px);
+    }
+
+    .informacoes .bloco-mais-informacoes .mais-informacoes{
+        flex: 1;
+    }
+
+    .bloco-mais-informacoes .mais-informacoes .conjunto-informacao{
+        width: 75%;
+    }
+
+    .conjunto-informacao > h3, .conjunto-informacao > p{
+        text-align: left;
+    }
+
+    .conjunto-informacao > h3{
+        font-size: 3.5rem;
+    }
+
+    .informacao-portabilidade > img{
+        width: 70%;
+    }
+
+    .work-flow .servicos{
+        align-items: start;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .work-flow .servicos li{
+        flex: 1;
+    }
+
+    .work-flow .servicos li > img {
+        width: auto;
+        height: 6rem;
+    }
+
+    .empresas .logos{
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .empresas .logos li{
+        flex: 2;
+    }
+
+    footer{
+        flex-direction: row;
+        padding: 0 15rem;
+        gap: 15rem;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .links .links-empresa{
+        text-align: left;
+        gap: 3rem;
+        flex-direction: row;
+        margin: 6rem 0;
+        flex: 1;
+        flex-wrap: wrap;
+
+    }
+
+    .links .links-empresa li{
+        width: 30rem;
+    }
+
+    .links .social-medias{
+        align-items: center;
+    }
+}
